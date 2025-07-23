@@ -28,29 +28,16 @@ Each problem is carefully selected to reinforce **patterns commonly tested in co
 
 ```bash
 interview-master-100/
-                              # All problem solutions
-│   ├── 001_two_sum/          # Problem directory
-│   │   ├── solution.py       # Python implementation
-│   │   ├── test_case.py      # Custom test cases (optional)
-│   │   └── README.md         # Problem explanation & approach
-│   ├── 002_<problem_name>/
-│   │   └── ...
-├── docs/                     # Additional notes (Big-O cheatsheets, etc.)
-├── .gitignore
-└── README.md                 # You're here!
+├── problems/     # All problem solutions
+│ ├── 001_two_sum/  # Problem 001
+│ │ ├── solution.py # Python implementation
+│ │ ├── test_case.py # Custom test cases (optional)
+│ │ └── README.md # Problem explanation & approach
+│ ├── 002_<problem_name>/ # Problem 002 (replace with actual name)
+│ │ └── ...
+├── .gitignore # Git ignored files
+└── README.md # You're here!           
 
-## ✅ Progress Tracker
-
-| # | Problem Name | Difficulty | Status | Solution Link |
-| --- | --- | --- | --- | --- |
-| 001 | Two Sum | Easy | ✅ | View |
-| 002 | Add Two Numbers | Medium | ❌ | Coming Soon |
-| ... | ... | ... | ... | ... |
-
-**Legend:**  
-✅ = Solved • ❌ = Pending • 🔄 = In Progress
-
-* * *
 
 ## 🚀 How to Use This Repository
 
@@ -72,3 +59,16 @@ cd interview-master-100
 \# Navigate to a problem and run its solution
 cd problems/001\_two\_sum
 python3 solution.py
+
+
+## 🤝 How to Contribute
+
+Contributions are welcome! If you'd like to add a solution or improve this repository, follow these steps:
+
+1. **Fork** this repository  
+   Click the **Fork** button on the top right of the repo page to create your own copy.
+
+2. **Clone your fork locally**  
+   ```bash
+   git clone https://github.com/your-username/interview-master-100-python.git
+   cd interview-master-100-python
