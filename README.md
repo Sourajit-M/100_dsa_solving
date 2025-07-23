@@ -24,18 +24,20 @@ Each problem is carefully selected to reinforce **patterns commonly tested in co
 
 ## 🗂️ Repository Structure  
 
+```bash
 
 interview-master-100/
-├── problems/     # All problem solutions
-│ ├── 001_two_sum/  # Problem 001
-│ │ ├── solution.py # Python implementation
-│ │ ├── test_case.py # Custom test cases (optional)
-│ │ └── README.md # Problem explanation & approach
-│ ├── 002_<problem_name>/ # Problem 002 (replace with actual name)
-│ │ └── ...
+
+│── 001_two_sum/  # Problem 001
+│ ├── problem_name.py # Python implementation
+│ ├── question.md # Question statement
+│
+│── 002_<problem_name>/ # Problem 002 (replace with actual name)
+│ └── ...
 ├── .gitignore # Git ignored files
 └── README.md # You're here!           
 
+```
 
 ## 🚀 How to Use This Repository
 
@@ -65,3 +67,10 @@ Contributions are welcome! If you'd like to add a solution or improve this repos
    ```bash
    git clone https://github.com/your-username/interview-master-100-python.git
    cd interview-master-100-python
+
+
+## 💡 Contribution & Feedback
+
+1. Found a bug? Open an Issue.
+
+2. Want to add a problem? Submit a Pull Request!
