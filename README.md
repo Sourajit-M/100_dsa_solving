@@ -22,11 +22,9 @@ This repository documents my problem-solving process and serves as a resource fo
 
 Each problem is carefully selected to reinforce **patterns commonly tested in coding interviews**.  
 
----
-
 ## 🗂️ Repository Structure  
 
-```bash
+
 interview-master-100/
 ├── problems/     # All problem solutions
 │ ├── 001_two_sum/  # Problem 001
@@ -42,15 +40,10 @@ interview-master-100/
 ## 🚀 How to Use This Repository
 
 ### 📋 Prerequisites
-
 *   Python 3.10+
-    
-*   Git (optional)
-    
+*   Git (optional) 
 
 ### 🛠️ Running Solutions
-
-bash
 
 \# Clone the repository
 git clone https://github.com/<your-username\>/interview-master-100.git
